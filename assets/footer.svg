@@ -1,0 +1,33 @@
+<svg width="900" height="90" viewBox="0 0 900 90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footBg" x1="0" y1="0" x2="900" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#080812"/>
+      <stop offset="100%" stop-color="#0a0a0f"/>
+    </linearGradient>
+    <linearGradient id="footLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(77,159,255,0)"/>
+      <stop offset="50%" stop-color="rgba(77,159,255,0.5)"/>
+      <stop offset="100%" stop-color="rgba(77,159,255,0)"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="90" fill="url(#footBg)"/>
+  <rect x="0" y="0" width="900" height="1" fill="url(#footLine)"/>
+
+  <!-- Signature text -->
+  <text x="450" y="38" font-family="-apple-system, system-ui, sans-serif" font-size="13" font-weight="400" fill="rgba(255,255,255,0.35)" text-anchor="middle" letter-spacing="0.5">
+    Crafted with the One Glass design language
+  </text>
+  <!-- Brand mark -->
+  <text x="450" y="62" font-family="-apple-system, system-ui, sans-serif" font-size="11" font-weight="500" fill="rgba(77,159,255,0.5)" text-anchor="middle" letter-spacing="2">
+    ◈  JAY RATHOD  ◈
+  </text>
+
+  <!-- Left orb dot -->
+  <circle cx="200" cy="45" r="2.5" fill="#4D9FFF" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Right orb dot -->
+  <circle cx="700" cy="45" r="2.5" fill="#9B59FF" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="4s" begin="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
