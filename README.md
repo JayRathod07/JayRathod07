@@ -76,9 +76,9 @@ I build things at the intersection of **machine intelligence** and **beautiful d
 
 ### 📊 &nbsp; GitHub Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=JayRathod07&show_icons=true&theme=transparent&hide_border=true&title_color=4D9FFF&icon_color=9B59FF&text_color=ffffff&bg_color=0d0d1a" width="100%" alt="Stats"/>
+<img src="https://github-readme-stats.vercel.app/api?username=JayRathod07&show_icons=true&theme=transparent&hide_border=true&title_color=4D9FFF&icon_color=9B59FF&text_color=ffffff&bg_color=0d0d1a&cache_seconds=86400" width="100%" alt="Stats"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=JayRathod07&theme=transparent&hide_border=true&ring=4D9FFF&fire=9B59FF&currStreakLabel=4D9FFF&background=0d0d1a&sideLabels=ffffff&dates=888888" width="100%" alt="Streak"/>
+<img src="https://streak-stats.demolab.com?user=JayRathod07&theme=transparent&hide_border=true&ring=4D9FFF&fire=9B59FF&currStreakLabel=4D9FFF&background=0d0d1a&sideLabels=ffffff&dates=888888" width="100%" alt="Streak"/>
 
 </td>
 </tr>
@@ -171,21 +171,21 @@ I build things at the intersection of **machine intelligence** and **beautiful d
 
 <!-- GitHub Readme Stats pinned repos -->
 <a href="https://github.com/JayRathod07/Capstone_project">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=JayRathod07&repo=Capstone_project&theme=transparent&hide_border=true&title_color=4D9FFF&icon_color=9B59FF&text_color=ffffff&bg_color=0d0d1a" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=JayRathod07&repo=Capstone_project&theme=transparent&hide_border=true&title_color=4D9FFF&icon_color=9B59FF&text_color=ffffff&bg_color=0d0d1a&cache_seconds=86400" width="48%"/>
 </a>
 &nbsp;
 <a href="https://github.com/JayRathod07/multi-agent-research-assistant">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=JayRathod07&repo=multi-agent-research-assistant&theme=transparent&hide_border=true&title_color=4D9FFF&icon_color=9B59FF&text_color=ffffff&bg_color=0d0d1a" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=JayRathod07&repo=multi-agent-research-assistant&theme=transparent&hide_border=true&title_color=4D9FFF&icon_color=9B59FF&text_color=ffffff&bg_color=0d0d1a&cache_seconds=86400" width="48%"/>
 </a>
 
 <br/><br/>
 
 <a href="https://github.com/JayRathod07/claude-nightcrawler">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=JayRathod07&repo=claude-nightcrawler&theme=transparent&hide_border=true&title_color=4D9FFF&icon_color=9B59FF&text_color=ffffff&bg_color=0d0d1a" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=JayRathod07&repo=claude-nightcrawler&theme=transparent&hide_border=true&title_color=4D9FFF&icon_color=9B59FF&text_color=ffffff&bg_color=0d0d1a&cache_seconds=86400" width="48%"/>
 </a>
 &nbsp;
 <a href="https://github.com/JayRathod07/customer-churn-prediction">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=JayRathod07&repo=customer-churn-prediction&theme=transparent&hide_border=true&title_color=4D9FFF&icon_color=9B59FF&text_color=ffffff&bg_color=0d0d1a" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=JayRathod07&repo=customer-churn-prediction&theme=transparent&hide_border=true&title_color=4D9FFF&icon_color=9B59FF&text_color=ffffff&bg_color=0d0d1a&cache_seconds=86400" width="48%"/>
 </a>
 
 </div>
@@ -207,7 +207,7 @@ I build things at the intersection of **machine intelligence** and **beautiful d
 
 <br/>
 
-<!-- Activity snake animation (requires GitHub Action — see README_SETUP.md) -->
+<!-- Activity snake animation -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg"/>
@@ -217,7 +217,7 @@ I build things at the intersection of **machine intelligence** and **beautiful d
 <br/><br/>
 
 <!-- Most used languages -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JayRathod07&layout=compact&theme=transparent&hide_border=true&title_color=4D9FFF&text_color=ffffff&bg_color=0d0d1a&langs_count=8" width="48%" alt="Top Languages"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JayRathod07&layout=compact&theme=transparent&hide_border=true&title_color=4D9FFF&text_color=ffffff&bg_color=0d0d1a&langs_count=8&cache_seconds=86400" width="48%" alt="Top Languages"/>
 
 </div>
 
