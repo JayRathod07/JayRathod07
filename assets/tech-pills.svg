@@ -1,0 +1,73 @@
+<svg width="900" height="120" viewBox="0 0 900 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="divBg" x1="0" y1="0" x2="900" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="100%" stop-color="#0d0d1a"/>
+    </linearGradient>
+    <radialGradient id="glowBlue" cx="30%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#4D9FFF" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#4D9FFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="70%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#9B59FF" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#9B59FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="topBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(77,159,255,0)"/>
+      <stop offset="30%" stop-color="rgba(77,159,255,0.6)"/>
+      <stop offset="70%" stop-color="rgba(155,89,255,0.6)"/>
+      <stop offset="100%" stop-color="rgba(155,89,255,0)"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="120" fill="url(#divBg)"/>
+  <rect width="900" height="120" fill="url(#glowBlue)"/>
+  <rect width="900" height="120" fill="url(#glowPurple)"/>
+  <!-- Glass divider line top -->
+  <rect x="0" y="0" width="900" height="1" fill="url(#topBorder)"/>
+
+  <!-- Tech pill row -->
+  <!-- Pill 1: Python -->
+  <g>
+    <rect x="60" y="44" width="84" height="32" rx="16" fill="rgba(77,159,255,0.12)" stroke="rgba(77,159,255,0.4)" stroke-width="1"/>
+    <text x="102" y="65" font-family="-apple-system, system-ui, sans-serif" font-size="13" font-weight="600" fill="#4D9FFF" text-anchor="middle">🐍 Python</text>
+  </g>
+  <!-- Pill 2: TensorFlow -->
+  <g>
+    <rect x="158" y="44" width="110" height="32" rx="16" fill="rgba(255,107,53,0.12)" stroke="rgba(255,107,53,0.4)" stroke-width="1"/>
+    <text x="213" y="65" font-family="-apple-system, system-ui, sans-serif" font-size="13" font-weight="600" fill="#FF6B35" text-anchor="middle">🔶 TensorFlow</text>
+  </g>
+  <!-- Pill 3: PyTorch -->
+  <g>
+    <rect x="282" y="44" width="92" height="32" rx="16" fill="rgba(238,76,44,0.12)" stroke="rgba(238,76,44,0.4)" stroke-width="1"/>
+    <text x="328" y="65" font-family="-apple-system, system-ui, sans-serif" font-size="13" font-weight="600" fill="#EE4C2C" text-anchor="middle">⚡ PyTorch</text>
+  </g>
+  <!-- Pill 4: React -->
+  <g>
+    <rect x="388" y="44" width="80" height="32" rx="16" fill="rgba(97,218,251,0.12)" stroke="rgba(97,218,251,0.4)" stroke-width="1"/>
+    <text x="428" y="65" font-family="-apple-system, system-ui, sans-serif" font-size="13" font-weight="600" fill="#61DAFB" text-anchor="middle">⚛ React</text>
+  </g>
+  <!-- Pill 5: Docker -->
+  <g>
+    <rect x="482" y="44" width="84" height="32" rx="16" fill="rgba(36,150,237,0.12)" stroke="rgba(36,150,237,0.4)" stroke-width="1"/>
+    <text x="524" y="65" font-family="-apple-system, system-ui, sans-serif" font-size="13" font-weight="600" fill="#2496ED" text-anchor="middle">🐳 Docker</text>
+  </g>
+  <!-- Pill 6: Git -->
+  <g>
+    <rect x="580" y="44" width="66" height="32" rx="16" fill="rgba(240,80,51,0.12)" stroke="rgba(240,80,51,0.4)" stroke-width="1"/>
+    <text x="613" y="65" font-family="-apple-system, system-ui, sans-serif" font-size="13" font-weight="600" fill="#F05033" text-anchor="middle">🌿 Git</text>
+  </g>
+  <!-- Pill 7: FastAPI -->
+  <g>
+    <rect x="660" y="44" width="84" height="32" rx="16" fill="rgba(0,156,130,0.12)" stroke="rgba(0,156,130,0.4)" stroke-width="1"/>
+    <text x="702" y="65" font-family="-apple-system, system-ui, sans-serif" font-size="13" font-weight="600" fill="#009688" text-anchor="middle">🚀 FastAPI</text>
+  </g>
+  <!-- Pill 8: More -->
+  <g>
+    <rect x="758" y="44" width="80" height="32" rx="16" fill="rgba(155,89,255,0.12)" stroke="rgba(155,89,255,0.4)" stroke-width="1"/>
+    <text x="798" y="65" font-family="-apple-system, system-ui, sans-serif" font-size="13" font-weight="600" fill="#9B59FF" text-anchor="middle">+  more</text>
+  </g>
+
+  <!-- Bottom divider gradient -->
+  <rect x="0" y="119" width="900" height="1" fill="url(#topBorder)"/>
+</svg>
