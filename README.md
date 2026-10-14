@@ -26,8 +26,12 @@
 
 <br/><br/>
 
-<!-- ── PROFILE VIEWS ──────────────────────────────────────────── -->
-<img src="https://komarev.com/ghpvc/?username=JayRathod07&style=for-the-badge&color=4D9FFF&labelColor=0d0d1a&label=PROFILE+VIEWS"/>
+<!-- ── STATS ROW ──────────────────────────────────────────────── -->
+<img src="https://img.shields.io/github/followers/JayRathod07?style=for-the-badge&logo=github&logoColor=white&label=Followers&color=4D9FFF&labelColor=0d0d1a"/>
+&nbsp;
+<img src="https://img.shields.io/github/stars/JayRathod07?style=for-the-badge&logo=github&logoColor=white&label=Total+Stars&color=9B59FF&labelColor=0d0d1a&affiliations=OWNER%2CCOLLABORATOR"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Focus-AI%20%2F%20ML-00D4AA?style=for-the-badge&logoColor=white&labelColor=0d0d1a"/>
 
 </div>
 
@@ -218,7 +222,7 @@ Large-scale ML capstone — deep learning model with full data pipeline, evaluat
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1200&color=4D9FFF&center=true&vCenter=true&width=600&lines=Building+intelligent+systems+🧠;Designing+with+glass+%26+depth+✨;One+UI+×+Liquid+Glass+🔷;Open+to+collabs+—+let's+build+🚀" alt="Typing animation"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1200&color=4D9FFF&center=true&vCenter=true&width=600&lines=Building+intelligent+systems;Designing+with+glass+%26+depth;One+UI+x+Liquid+Glass;Open+to+collabs+%E2%80%94+let%27s+build" alt="Typing animation"/>
 
 </div>
 
