@@ -1,14 +1,17 @@
-# Snake animation generator — runs on a schedule and on push
-# Generates the contribution graph snake animation used in the profile README
+# Snake animation generator
+# Generates the contribution graph snake and commits it to assets/
+# Runs every 12 hours on a schedule, or manually from GitHub Actions tab.
+# NOTE: push trigger removed — no longer fires on every commit.
 name: 🐍 One Glass — Contribution Snake
 
 on:
   schedule:
-    # Runs every 12 hours
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-  push:
-    branches: [main]
+    - cron: "0 */12 * * *"   # every 12 hours
+  workflow_dispatch:          # manual trigger from GitHub Actions tab
+
+# Required so the Action can commit the generated SVG back to the repo
+permissions:
+  contents: write
 
 jobs:
   generate:
@@ -19,7 +22,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate snake animation (dark theme — One Glass colors)
+      - name: Generate snake animation (One Glass dark + light)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -27,9 +30,9 @@ jobs:
             assets/github-snake-dark.svg?palette=github-dark&color_snake=#4D9FFF&color_dots=#0d0d1a,#1a1a2e,#2d2d4a,#4D9FFF,#9B59FF
             assets/github-snake.svg?palette=github&color_snake=#4D9FFF
 
-      - name: Commit & push generated files
+      - name: Commit & push generated SVG files
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: regenerate One Glass snake animation [skip ci]"
+          commit_message: "chore: regenerate snake animation [skip ci]"
           branch: main
           file_pattern: assets/github-snake*.svg
